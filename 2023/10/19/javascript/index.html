@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="JavaScript 是 一种轻量级Web 的编程语言，是一种脚本语言，这门语言可用于 HTML 和 web，JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行，可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备  HTML插入js脚本  HTML 中的 Javascript 脚本代码必须位于  与  标签之间。 通常的做法是把函数放入  部分中，或者放在页面底部。这">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2023/10/19/javascript/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="JavaScript 是 一种轻量级Web 的编程语言，是一种脚本语言，这门语言可用于 HTML 和 web，JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行，可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备  HTML插入js脚本  HTML 中的 Javascript 脚本代码必须位于  与  标签之间。 通常的做法是把函数放入  部分中，或者放在页面底部。这">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-10-19T06:16:09.285Z">
+<meta property="article:modified_time" content="2023-05-28T16:36:20.395Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-javascript" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/10/19/javascript/" class="article-date">
+  <time class="dt-published" datetime="2023-10-19T06:16:09.285Z" itemprop="datePublished">2023-10-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>JavaScript 是 一种轻量级Web 的编程语言，是一种脚本语言，这门语言可用于 HTML 和 web，JavaScript 插入 HTML 页面后，可由所有的现代浏览器执行，可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备</p>
+<ol start="0">
+<li><p>HTML插入js脚本</p>
+<blockquote>
+<p>HTML 中的 Javascript 脚本代码必须位于 <strong><script></strong> 与 <strong></script></strong> 标签之间。</p>
+<p>通常的做法是把函数放入 <head> 部分中，或者放在页面底部。这样就可以把它们安置到同一处位置，不会干扰页面的内容。</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&lt;p&gt;sentence&lt;/p&gt;&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>也可以将脚本保存到外部文件<code>后缀.js</code>，在<code>&lt;script&gt;</code>标签的<code>src</code>属性中设置为调用文件</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;Script.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--效果与标签中的脚本一致--&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>JavaScript输出</p>
+<blockquote>
+<p>直接写入HTML输出<code>document.write()</code></p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&lt;h1&gt;title&lt;/h1&gt;&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">    <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&lt;p&gt;sentence&lt;/p&gt;&quot;</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>window.alert()</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="variable language_">window</span>.<span class="title function_">alert</span>(<span class="number">5</span> + <span class="number">6</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--点击按钮弹窗--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;alert(&#x27;welcome!&#x27;)&quot;</span>&gt;</span>click!<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>innerHTML写入</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">&quot;test&quot;</span>&gt;</span></span><br><span class="line">this is a test</span><br><span class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">myFunction</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	x=<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;test&quot;</span>);  <span class="comment">// 找到id=&quot;test&quot;的元素</span></span></span><br><span class="line"><span class="language-javascript">	x.<span class="property">innerHTML</span>=<span class="string">&quot;thanks&quot;</span>;    <span class="comment">// 修改内容</span></span></span><br><span class="line"><span class="language-javascript">    x.<span class="property">style</span>.<span class="property">color</span>=<span class="string">&quot;#ff0000&quot;</span>;	<span class="comment">//	修改颜色</span></span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>console.log()写到控制台</p>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">	<span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">19</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>基本语法</p>
+<blockquote>
+<p>Number字面量: 可以是整数或者是小数，或者是科学计数(e)</p>
+</blockquote>
+<blockquote>
+<p>String字面量: 可以使用单引号或双引号</p>
+</blockquote>
+<blockquote>
+<p>Array字面量：<code>[40, 100, 1, 5, 25, 10]</code></p>
+</blockquote>
+<blockquote>
+<p>Object字面量: <code>&#123;firstName:&quot;John&quot;, lastName:&quot;Doe&quot;, age:50, eyeColor:&quot;blue&quot;&#125;</code></p>
+</blockquote>
+<blockquote>
+<p>Function字面量: <code>function myFunction(a, b) &#123; return a * b;&#125;</code></p>
+</blockquote>
+<blockquote>
+<p>变量用var指明</p>
+</blockquote>
+<blockquote>
+<p>保留关键字</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>abstract</td>
+<td>else</td>
+<td>instanceof</td>
+<td>super</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>enum</td>
+<td>int</td>
+<td>switch</td>
+</tr>
+<tr>
+<td>break</td>
+<td>export</td>
+<td>interface</td>
+<td>synchronized</td>
+</tr>
+<tr>
+<td>byte</td>
+<td>extends</td>
+<td>let</td>
+<td>this</td>
+</tr>
+<tr>
+<td>case</td>
+<td>false</td>
+<td>long</td>
+<td>throw</td>
+</tr>
+<tr>
+<td>catch</td>
+<td>final</td>
+<td>native</td>
+<td>throws</td>
+</tr>
+<tr>
+<td>char</td>
+<td>finally</td>
+<td>new</td>
+<td>transient</td>
+</tr>
+<tr>
+<td>class</td>
+<td>float</td>
+<td>null</td>
+<td>true</td>
+</tr>
+<tr>
+<td>const</td>
+<td>for</td>
+<td>package</td>
+<td>try</td>
+</tr>
+<tr>
+<td>continue</td>
+<td>function</td>
+<td>private</td>
+<td>typeof</td>
+</tr>
+<tr>
+<td>debugger</td>
+<td>goto</td>
+<td>protected</td>
+<td>var</td>
+</tr>
+<tr>
+<td>default</td>
+<td>if</td>
+<td>public</td>
+<td>void</td>
+</tr>
+<tr>
+<td>delete</td>
+<td>implements</td>
+<td>return</td>
+<td>volatile</td>
+</tr>
+<tr>
+<td>do</td>
+<td>import</td>
+<td>short</td>
+<td>while</td>
+</tr>
+<tr>
+<td>double</td>
+<td>in</td>
+<td>static</td>
+<td>with</td>
+</tr>
+</tbody></table>
+</blockquote>
+</li>
+<li><p>对用户的输入进行判定</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">&quot;test&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">FunctionJudge</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">var</span> x=<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;test&quot;</span>).<span class="property">value</span>;	<span class="comment">//	获取id=“test”标签的值</span></span></span><br><span class="line"><span class="language-javascript">	<span class="keyword">if</span>(x==<span class="string">&quot;&quot;</span>||<span class="built_in">isNaN</span>(x))<span class="title function_">alert</span>(<span class="string">&quot;not a number&quot;</span>);	<span class="comment">//	不是数字弹窗</span></span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;FunctionJudge()&quot;</span>&gt;</span>enter<span class="tag">&lt;/<span class="name">button</span>&gt;</span>	<span class="comment">&lt;!--点击按调用函数--&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/10/19/javascript/" data-id="clnwtank30006v8uccnzk73zc" data-title="" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2023/10/19/Rust/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2023/10/19/GPT/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">GPT info</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/10/19/goods/">goods</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/19/css/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/19/CET6%E4%BD%9C%E6%96%87/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/19/Rust/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/19/javascript/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
